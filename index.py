@@ -36,7 +36,7 @@ inputWeight = ttk.Entry(master=inputFrame, textvariable=weightInt)
 #button
 button = ttk.Button(master=inputFrame, text="Calculate", command=calculate)
 
-#paccking
+#packing
 inputHeight.pack(side='left', padx=10)
 inputWeight.pack(side='left')
 button.pack(side='left',padx=10)
