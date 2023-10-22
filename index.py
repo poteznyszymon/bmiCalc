@@ -18,6 +18,10 @@ window.title('Bmi calculator')
 window.geometry('500x170')
 window.resizable(0,0)
 
+#icon
+icon = tk.PhotoImage(file="icon.png")
+window.iconphoto(False, icon)
+
 #title
 titleFrame = ttk.Label(master=window, text='Calcualte your BMI', font='Calibri 24 bold')
 titleFrame.pack(pady=20)
